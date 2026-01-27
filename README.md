@@ -40,4 +40,27 @@ The dataset is designed to support two primary evaluation tasks for MLLMs:
 * **Ground Truth:** The dataset design includes controlled variable settings to facilitate comparison between illusion-induced errors and ground truth values.
 
 ## License
+
 This dataset is released for academic and research purposes.
+
+## File Naming Convention
+The filenames in this dataset follow a structured format containing key metadata about the map generation parameters.
+
+**Example:** `Aigle_h300_b0.49_A4_B7.png`
+
+* **`Aigle`**: **Region Name**
+  Represents the specific geographic administrative area depicted in the map (e.g., Aigle, Ain, Ardennes).
+
+* **`h300`**: **Hue Value**
+  Indicates the base hue angle of the target color in the HSB color space
+
+* **`b0.49` / `s0.47`**: **Brightness / Saturation Parameter**
+  * `b`: Represents the brightness value (used in illusions like Neighborhood Contrast).
+  * `s`: Represents the saturation value (used in illusions like Stripe Frequency).
+  * *Note: Some filenames may include `rep` (e.g., `rep2`), indicating the repetition frequency of the pattern.*
+
+* **`A4`**: **Target Region ID (Region A)**
+  The unique index of the primary target region to be evaluated.
+
+* **`B7`**: **Reference Region ID (Region B)**
+  The unique index of the comparison region or background context.
