@@ -1,7 +1,7 @@
 # Visual Illusion Map Dataset
 
 ## Overview
-This repository contains a human-verified dataset of choropleth maps designed to evaluate the color perception capabilities of Large Vision-Language Models (LVLMs). [cite_start]The study investigates whether artificial visual systems exhibit human-like perceptual biases when interpreting cartographic information[cite: 1, 6, 8]. [cite_start]The dataset focuses on how contextual factors such as surrounding colors and spatial patterns influence color judgment in map reading tasks[cite: 14, 17]. [cite_start]All data has been manually verified to ensure the validity of visual illusions while maintaining cartographic integrity[cite: 28, 141].
+This repository contains a human-verified dataset of choropleth maps designed to evaluate the color perception capabilities of Large Vision-Language Models (LVLMs). The study investigates whether artificial visual systems exhibit human-like perceptual biases when interpreting cartographic information. The dataset focuses on how contextual factors, such as surrounding colors and spatial patterns, influence color judgment in map reading tasks. All data has been manually verified to ensure the validity of visual illusions while maintaining cartographic integrity.
 
 ## Data Description
 The dataset is organized into six folders representing three specific optical illusion mechanisms applied to two distinct map types (Classed and Sequential).
@@ -30,6 +30,7 @@ The filenames in this dataset follow a structured format containing key metadata
 
 ## License
 This dataset is released for academic and research purposes.
+
 
 
 
