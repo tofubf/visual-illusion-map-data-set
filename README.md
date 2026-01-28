@@ -11,25 +11,26 @@ The filenames in this dataset follow a structured format containing key metadata
 
 **Example:** `Aigle_h300_b0.49_A4_B7.png`
 
-* **`Aigle`**: **Region Name**
+* **`Aigle`**: 
   Represents the specific geographic administrative area depicted in the map (e.g., Aigle, Ain, Ardennes).
 
-* **`h300`**: **Hue Value**
+* **`h300`**: 
   Indicates the base hue angle of the target color in the HSB color space
 
-* **`b0.49` / `s0.47`**: **Brightness / Saturation Parameter**
+* **`b0.49` / `s0.47`**: 
   * `b`: Represents the brightness value (used in illusions like Neighborhood Contrast).
   * `s`: Represents the saturation value (used in illusions like Stripe Frequency).
   * *Note: Some filenames may include `rep` (e.g., `rep2`), indicating the repetition frequency of the pattern.*
 
-* **`A4`**: **Target Region ID (Region A)**
+* **`A4`**:
   The unique index of the primary target region to be evaluated.
 
-* **`B7`**: **Reference Region ID (Region B)**
+* **`B7`**: 
   The unique index of the comparison region or background context.
 
 ## License
 This dataset is released for academic and research purposes.
+
 
 
 
